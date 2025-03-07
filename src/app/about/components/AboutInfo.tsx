@@ -1,5 +1,5 @@
 import { AnimatedBeamPersonal } from "./AnimatedBeamPersonal";
-
+import Link from "next/link";
 function AboutInfo() {
   return (
     <section className="flex flex-col lg:flex-row gap-5 w-full min-h-[620px]">
@@ -42,7 +42,11 @@ function AboutInfo() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-between w-full lg:w-2/5 bg-white/30 backdrop-blur-sm lg:h-[620px] rounded-lg p-4">
+      <Link
+        href="https://www.instagram.com/elrincondeldev/"
+        target="_blank"
+        className="flex flex-col justify-between w-full lg:w-2/5 bg-white/30 backdrop-blur-sm lg:h-[620px] rounded-lg p-4"
+      >
         <div className="flex flex-col mb-5 md:mb-0">
           <p className="acorn text-2xl md:text-3xl font-bold">
             Content creator
@@ -58,7 +62,7 @@ function AboutInfo() {
           alt="Social"
           className="w-full md:max-w-[300px] mx-auto lg:max-w-none"
         />
-      </div>
+      </Link>
     </section>
   );
 }
