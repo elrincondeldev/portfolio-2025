@@ -24,7 +24,7 @@ export default function Home() {
       <motion.img
         src="/assets/react_icon.svg"
         alt="React Icon"
-        className="w-24 sm:w-32 md:w-48 h-24 sm:h-32 md:h-48 absolute top-[50px] -left-2 sm:left-10"
+        className="w-24 sm:w-32 md:w-48 h-24 sm:h-32 md:h-48 absolute top-[50px] -left-2 sm:left-6"
         animate={{ rotate: 360 }}
         transition={{
           duration: 16,
